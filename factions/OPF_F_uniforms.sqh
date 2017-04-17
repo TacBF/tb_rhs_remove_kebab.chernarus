@@ -1,0 +1,51 @@
+// GREF
+// Author: LolingRus
+
+uniforms[] =
+{
+// UNIFORMS
+	
+	// Infantry
+	{"rhsgref_uniform_ttsko_forest", {__ICE_gear_allRoles}},
+		
+	// Sniper
+	{"U_O_FullGhillie_ard", {__ICE_gear_Sniper}},
+	{"U_O_FullGhillie_lsh", {__ICE_gear_Sniper}},
+	{"U_O_FullGhillie_sard", {__ICE_gear_Sniper}},
+		
+	// Pilot
+	{"rhs_uniform_df15_tan", {__ICE_gear_Pilot}},
+
+// VESTS
+	
+	// Infantry
+	{"rhsgref_6b23_khaki_rifleman", {__ICE_gear_allRoles}},
+	{"rhs_6b23_6sh92", {__ICE_gear_infantryRoles}},
+	{"rhsgref_6b23_ttsko_mountain_rifleman", {__ICE_gear_Rifleman}},
+	{"rhs_6b5_medic_ttsko", {__ICE_gear_Medic}},
+	{"rhsgref_6b23_ttsko_forest_rifleman", {__ICE_gear_Grenadier}},
+	{"rhsgref_6b23_ttsko_digi_rifleman", {__ICE_gear_CombatEngineer}},
+	{"rhsgref_6b23_ttsko_mountain_officer", {__ICE_gear_SL}},
+	{"rhsgref_6b23_ttsko_digi_sniper", {__ICE_gear_Sniper}},
+	{"rhsgref_TacVest_ERDL", {__ICE_gear_Crewman}},
+		
+	// Pilot
+	{"rhs_vydra_3m", {__ICE_gear_Pilot}},
+
+// HELMETS
+	
+	// Infantry
+	{"rhsgref_6b27m_ttsko_forest", {__ICE_gear_Inf}},
+	{"rhs_Booniehat_flora", {__ICE_gear_Marksman, __ICE_gear_Sniper}},
+		
+	// Crewman
+	{"rhs_tsh4", {__ICE_gear_Crewman}},
+		
+	// Pilot
+	{"rhs_gssh18", {__ICE_gear_Pilot}},
+	
+// GLASSES
+	
+	{"rhs_balaclava", {__ICE_gear_allRoles}},
+	{"rhs_scarf", {__ICE_gear_allRoles}}
+};

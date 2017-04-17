@@ -1,0 +1,59 @@
+// SAF - LolingRus
+
+
+uniforms[] =
+{
+// UNIFORMS
+	
+	// Infantry
+	{"rhssaf_uniform_m10_digital_summer", {__ICE_gear_allRoles}},
+		
+	// Sniper
+	{"U_B_FullGhillie_ard", {__ICE_gear_Sniper}},
+	{"U_B_FullGhillie_lsh", {__ICE_gear_Sniper}},
+	{"U_B_FullGhillie_sard", {__ICE_gear_Sniper}},
+		
+	// Pilot
+	{"rhssaf_uniform_heli_pilot", {__ICE_gear_Pilot}},
+	
+	// Diver
+	{"rhssaf_uniform_m10_digital_summer", {__ICE_gear_Inf}},
+
+// VESTS
+	
+	// Infantry
+	{"rhssaf_vest_md99_digital_rifleman", {__ICE_gear_allRoles}},
+	{"rhssaf_vest_otv_md2camo", {__ICE_gear_Inf}},
+	{"rhssaf_vest_md99_md2camo_rifleman", {__ICE_gear_Medic}},
+	{"rhssaf_vest_md98_digital", {__ICE_gear_Grenadier}},
+	{"rhssaf_vest_md99_digital_rifleman", {__ICE_gear_CombatEngineer}},
+	{"rhssaf_vest_md99_digital_rifleman_radio", {__ICE_gear_SL}},
+	{"rhssaf_vest_md98_digital", {__ICE_gear_MG}},
+	{"rhssaf_vest_md99_digital_radio", {__ICE_gear_Crewman}},
+	{"rhssaf_vest_md99_digital_rifleman_radio", {__ICE_gear_Marksman}},
+	
+	// Pilot
+	{"V_PlateCarrier1_blk", {__ICE_gear_Pilot}},
+	
+	// Diver
+	{"V_RebreatherB", {__ICE_gear_Inf}},
+
+// HELMETS
+	
+	// Infantry
+	{"rhssaf_helmet_m97_digital_black_ess_bare", {__ICE_gear_Inf}},
+	{"rhssaf_booniehat_digital", {__ICE_gear_Marksman, __ICE_gear_Sniper}},
+		
+	// Crewman
+	{"rhssaf_helmet_m97_digital_black_ess_bare", {__ICE_gear_Crewman}},
+		
+	// Pilot
+	{"rhssaf_helmet_hgu56p", {__ICE_gear_Pilot}},
+	
+// GLASSES
+	
+	{"rhs_googles_black", {__ICE_gear_allRoles}},
+	{"rhs_googles_orange", {__ICE_gear_allRoles}},
+	{"rhs_googles_yellow", {__ICE_gear_allRoles}},
+	{"rhs_googles_clear", {__ICE_gear_allRoles}}
+};
